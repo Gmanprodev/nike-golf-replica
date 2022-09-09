@@ -161,20 +161,20 @@
     <div class="mx-6">
         <h1 class="mt-20 mb-8 text-2xl tracking-wide font-medium">Shop By Athelete</h1>
     </div>
-    <div class="mx-6 lg:flex">
+    <div class="mx-6 lg:flex lg:gap-2">
         <div>
             <a href="#">
                 <img src="{{ asset('/images/michelle-wie.png') }}" alt="Michelle Wie" class="w-full">
             </a>
             <p class="text-xl font-medium mt-6">Michelle Wie</p>
         </div>
-        <div class="hidden sm:hidden lg:flex">
+        <div class="hidden sm:hidden lg:block">
             <a href="#">
                 <img src="{{ asset('/images/rory-mcilroy.png') }}" alt="Rory McIlroy" class="w-full">
             </a>
             <p class="text-xl font-medium mt-6">Rory McIlroy</p>
         </div>
-        <div class="hidden sm:hidden lg:flex">
+        <div class="hidden sm:hidden lg:block">
             <a href="#">
                 <img src="{{ asset('/images/tiger-woods.png') }}" alt="Tiger Woods" class="w-full">
             </a>
@@ -184,22 +184,22 @@
     <div class="mx-6">
         <h1 class="mt-20 mb-8 text-2xl tracking-wide font-medium">Golf Essentials</h1>
     </div>
-    <div class="mx-6 lg:flex">
+    <div class="mx-6 lg:flex lg:gap-2">
         <div>
             <a href="#">
-                <img src="{{ asset('/images/golf-essentials.png') }}" alt="Shirt" class="w-full">
+                <img src="{{ asset('/images/golf-essentials.png') }}" alt="Shirt" class="w-full lg:h-[400px]">
             </a>
             <p class="text-xl font-medium mt-6">Apparel</p>
         </div>
-        <div class="hidden sm:hidden lg:flex">
+        <div class="hidden sm:hidden lg:block">
             <a href="#">
-                <img src="{{ asset('/images/foot-wear.png') }}" alt="Footwear" class="w-full">
+                <img src="{{ asset('/images/foot-wear.png') }}" alt="Footwear" class="w-full h-[400px]">
             </a>
             <p class="text-xl font-medium mt-6">Footwear</p>
         </div>
-        <div class="hidden sm:hidden lg:flex">
+        <div class="hidden sm:hidden lg:block">
             <a href="#">
-                <img src="{{ asset('/images/nike-cap.png') }}" alt="Accessories" class="w-full">
+                <img src="{{ asset('/images/nike-cap.png') }}" alt="Accessories" class="w-full h-[400px]">
             </a>
             <p class="text-xl font-medium mt-6">Accessories</p>
         </div>
@@ -210,8 +210,8 @@
                 <img src="{{ asset('/images/nike-app.png') }}" alt="Nike App" class="w-full mt-32">
             </a>
         </div>
-        <div class="hidden sm:hidden lg:flex">
-            <a href="#">
+        <div class="hidden sm:hidden lg:justify-center lg:flex">
+            <a href="#" class="lg:inline-block">
                 <img src="{{ asset('/images/small-nike-app.png') }}" alt="Nike App" class="w-full mt-32">
             </a>
         </div>
@@ -233,7 +233,7 @@
             </ul>
         </div>
     </div>
-    <div class="grid grid-cols-4 sm:hidden md:flex gap-x-16 mx-6">
+    <div class="grid grid-cols-4 sm:hidden md:grid gap-x-16 mx-6">
         <div>
             <ul class="text-base font-medium">
                 <li class="mt-20">Golf Shoes</li>
@@ -252,7 +252,7 @@
                 <li class="mt-3 text-gray-500">Golf Shirts</li>
             </ul>
         </div>
-        <div class="col-span-2">
+        <div>
             <ul class="text-base font-medium">
                 <li class="mt-20">Golf Gear</li>
                 <li class="mt-6 text-gray-500">Rory McIlroy</li>
@@ -271,8 +271,6 @@
             </ul>
         </div>
     </div>
-    
-    
     <footer class="bg-black mt-10">
         <div class="px-6 py-8 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div class="grid grid-cols-4 gap-8 sm:grid-cols-2 md:grid-cols-4">

@@ -1,8 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "dev": "vite",
-        "build": "vite build"
+        "dev": "npm run dev",
+        "build": "npm run build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.8",
